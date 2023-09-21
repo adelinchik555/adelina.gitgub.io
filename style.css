@@ -1,6 +1,7 @@
 body {
-    color: #1f506b;
-    background-color: #c7d1d6}
+    color: #1e382b;
+    background-color: #9ccca8
+}
 
 /* Этим свойством добавляем подчеркивание через создание псевдокласса */
 a::after {
