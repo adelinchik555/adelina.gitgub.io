@@ -1,6 +1,6 @@
 body {
-    color: #1e382b;
-    background-color: #9ccca8
+
+    background: linear-gradient(to top, rgba(96, 107, 96, 0.98),#9ccca8)} /*-color: #9ccca8*/
 }
 
 /* Этим свойством добавляем подчеркивание через создание псевдокласса */
@@ -11,16 +11,25 @@ a::after {
     right: 0;
     transform: translateY(1.5em);
     border-bottom: 1px solid #dadada;
-    width: 250px;}
+    width: 250px;
+    color: #a62727;
+
+   }
 
 h1 {
     font-size: 30px;
+    color: #09110e;
 }
 
 h2 {
     font-size: 20px;
     margin: 1.25px 0;
+    color: #b8debd;
 }
+
+div { color: #ffffff;}
+
+footer { color: #ffffff;}
 
 /* Свойства фотографии*/
 .photo {
